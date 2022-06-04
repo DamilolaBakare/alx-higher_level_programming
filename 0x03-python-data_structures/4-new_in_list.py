@@ -4,9 +4,9 @@ def new_in_list(my_list, idx, element):
     for i in range(len(my_list)):
         cp.append(my_list[i])
     if idx < 0:
-            return cp
+        return cp
     elif idx >= len(my_list):
-            return cp
+        return cp
     else:
             cp[idx] = element
-            return cp
+        return cp
